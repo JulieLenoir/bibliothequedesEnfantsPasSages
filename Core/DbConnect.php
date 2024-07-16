@@ -6,10 +6,10 @@ abstract class DbConnect
     protected $connection;
     protected $request;
 
-    const SERVER = "localhost";
-    const USER = "root";
+    const SERVER = "";
+    const USER = "";
     const PASSWORD = "";
-    const BASE = "biblio_ecf2";
+    const BASE = "";
 
     public function __construct()
     {
